@@ -1,0 +1,31 @@
+.container {
+  padding-top: 100px;
+  background: rgb(220, 245, 233);
+  height: 100vh;
+  display: flex;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.item1 {
+  background: #ef9a9a;
+  flex-grow: 2;
+}
+.item2 {
+  background: #9a9bef;
+  flex-grow: 2;
+}
+.item3 {
+  background: #9aefb3;
+  flex-grow: 2;
+}
+.item4 {
+  background: #e2ef9a;
+  flex-grow: 2;
+}
+
+.
