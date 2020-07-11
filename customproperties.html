@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --first-color: #488cff;
+        --second-color: #ffff8c;
+        --somekeyword: left;
+        --somecolor: #0000ff;
+        --somecomplexvalue: 3px 6px rgb(20, 32, 54);
+      }
+
+      #firstParagraph {
+        background-color: var(--first-color);
+        color: var(--second-color);
+      }
+
+      #secondParagraph {
+        background-color: var(--second-color);
+        color: var(--first-color);
+      }
+
+      #container {
+        --first-color: #48ff32;
+      }
+
+      #thirdParagraph {
+        background-color: var(--first-color);
+        color: var(--second-color);
+      }
+    </style>
+  </head>
+  <body>
+    <p id="firstParagraph">
+      This paragraph should have a blue background and yellow text.
+    </p>
+    <p id="secondParagraph">
+      This paragraph should have a yellow background and blue text.
+    </p>
+    <div id="container">
+      <p id="thirdParagraph">
+        This paragraph should have a green background and yellow text.
+      </p>
+    </div>
+  </body>
+</html>
